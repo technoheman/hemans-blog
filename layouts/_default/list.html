@@ -1,14 +1,9 @@
 {{ define "main" }}
-{{ range .Site.RegularPages }}
-<article>
-    <header>
-        <h3>
-            <a rel="bookmark" href="{{.Permalink}}">{{ .Title }}</a>
-        </h3>
-        <small>
-            {{.PublishDate.Format "January 2, 2006"}} &middot; {{.ReadingTime}} mins read
-        </small>
-    </header>
-</article>
-{{end}}
+
+    <h1>{{ .Title }}</h1>
+
+    {{ range .Pages }}
+        {{ .Render "li" }}
+    {{end}}
+
 {{end}}

@@ -1,7 +1,7 @@
 {
 	"baseUrl": "https://hemans.blog/",
 	"languageCode": "en-us",
-	"title": "Hemanshu Bhojak",
+	"title": "heman's blog",
 	"pygmentsUseClasses": true,
 	"enableEmoji": true,
 	"markup": {
@@ -16,5 +16,27 @@
 			"style": "monokai",
 			"tabWidth": 4
 		}
+	},
+	"taxonomy": {
+		"category": "categories"
+	},
+	"menu": {
+		"main": [
+			{
+				"name": "twitter",
+				"url": "https://twitter.com/hemanshubhojak",
+				"weight": 1
+			},
+			{
+				"name": "Posts by categories",
+				"url": "/categories/",
+				"weight": 2
+			},
+			{
+				"name": "Archives",
+				"url": "/posts/",
+				"weight": 3
+			}
+		]
 	}
 }

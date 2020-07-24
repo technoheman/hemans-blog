@@ -1,0 +1,23 @@
+{{ define "main" }}
+<main class="taxonomy-list">
+    <h1>{{ .Title }}</h1>
+    <ul>
+        {{ range .Data.Terms.Alphabetical }}
+        <li>
+            <h2>
+                <a href="/{{ $.Data.Plural | urlize }}/{{ .Name | urlize }}">
+                    {{ .Name | humanize | title }}
+                </a>
+            </h2>
+            <small>
+                {{ if gt .Count 1 }}
+                    {{ .Count }} posts
+                {{ else }}
+                    {{ .Count }} post
+                {{ end }}
+            </small>
+        </li>
+        {{ end }}
+    </ul>
+</main>
+{{ end }}

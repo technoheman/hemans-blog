@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+    <h1>Archives</h1>
+
+    {{ range .Site.RegularPages.GroupByPublishDate "2006" }}
+        <h2>{{ .Key }}</h2>
+        {{ range .Pages }}
+            {{ .Render "li" }}
+        {{ end }}
+    {{end}}
+
+{{end}}

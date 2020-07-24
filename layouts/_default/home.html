@@ -1,0 +1,16 @@
+{{ define "header" }}
+    {{ partial "header-home.html" . }}
+    {{ partial "subheading.html" . }}
+{{end}}
+
+{{ define "main" }}
+
+    {{ range first 10 .Site.RegularPages }}
+        {{ .Render "li" }}
+    {{end}}
+
+{{end}}
+
+{{ define "footer" }}
+    {{ partial "menu.html" . }}
+{{end}}

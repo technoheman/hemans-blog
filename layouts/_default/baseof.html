@@ -8,8 +8,10 @@
     <title>heman's blog</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto+Mono:wght@300;400;600" rel="stylesheet" />
-    <link rel="stylesheet" href="{{ $highlightStyle.Permalink }}" integrity="{{ $highlightStyle.Data.Integrity}}" media="screen">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto+Mono:wght@300;400;600"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="{{ $highlightStyle.Permalink }}" integrity="{{ $highlightStyle.Data.Integrity}}"
+        media="screen">
     <link rel="stylesheet" href="{{ $mainStyle.Permalink }}" integrity="{{ $mainStyle.Data.Integrity}}" media="screen">
 </head>
 
@@ -17,18 +19,17 @@
 
     <div class="container">
         {{ block "header" . }}
-        <header class="site-header">
-            <h1>
-                <a href="{{.Site.BaseURL}}">heman's blog</a>
-            </h1>
-        </header>
+            {{ partial "header.html" . }}
         {{end}}
 
         <main>
             {{ block "main" . }}
-
             {{end}}
         </main>
+
+        {{ block "footer" . }}
+            {{ partial "subheading.html" . }}
+        {{end}}
     </div>
 
 </body>
