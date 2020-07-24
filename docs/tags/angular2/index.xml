@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>angular2 on heman&#39;s blog</title>
+    <link>https://hemans.blog/tags/angular2/</link>
+    <description>Recent content in angular2 on heman&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Jul 2016 01:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hemans.blog/tags/angular2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Angular2: TypeError: Cannot read property &#39;visitStatement&#39; of undefined</title>
+      <link>https://hemans.blog/posts/2016/2016-07-04-angular2-cannot-read-property-visitstatement-of-undefined/</link>
+      <pubDate>Mon, 04 Jul 2016 01:00:00 +0000</pubDate>
+      
+      <guid>https://hemans.blog/posts/2016/2016-07-04-angular2-cannot-read-property-visitstatement-of-undefined/</guid>
+      <description>If you get the following runtime error in your Angular2 app,
+TypeError: Cannot read property ‘visitStatement’ of undefined Remove any empty event handlers like,
+(click)=&amp;#34;&amp;#34; </description>
+    </item>
+    
+  </channel>
+</rss>

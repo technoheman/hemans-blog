@@ -4,6 +4,7 @@
 	"title": "heman's blog",
 	"pygmentsUseClasses": true,
 	"enableEmoji": true,
+	"publishDir": "docs",
 	"markup": {
 		"highlight": {
 			"codeFences": true,

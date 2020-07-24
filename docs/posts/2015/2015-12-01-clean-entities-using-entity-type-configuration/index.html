@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    
+
+    <title>heman's blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto+Mono:wght@300;400;600"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://hemans.blog/syntax.a832bd16b1d6afac69b94ca616a61d04b6ac9ffe41dd90333d406c1ebed2eddc.css" integrity="sha256-qDK9FrHWr6xpuUymFqYdBLasn/5B3ZAzPUBsHr7S7dw="
+        media="screen">
+    <link rel="stylesheet" href="https://hemans.blog/main.min.71aa65299931f19f62c8f84bcd6e1d1816d76d812742550ee1f608dc2cc30e42.css" integrity="sha256-caplKZkx8Z9iyPhLzW4dGBbXbYEnQlUO4fYI3CzDDkI=" media="screen">
+</head>
+
+<body>
+
+    <div class="container">
+        
+<header class="site-header">
+    <h2>
+        <a href="https://hemans.blog/">heman's blog</a>
+    </h2>
+</header>
+
+
+        <main>
+            
+<article>
+    <header>
+        <h1>
+            Keep your Entity Framework entities clean with EntityTypeConfiguration
+        </h1>
+        <small>
+            December 1, 2015 &middot; 1 minute read
+        </small>
+    </header>
+    <div>
+        <h3 id="what">What?</h3><ul>
+<li>Entity Framework has two ways of mapping an entity class to a database table
+<ul>
+<li>Attributes
+<ul>
+<li>Pollutes the classes</li>
+<li>Avoid using this approach</li>
+</ul>
+</li>
+<li>EntityTypeConfiguration
+<ul>
+<li>Unobtrusive way of mapping</li>
+<li>Always use this approach</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="how">How?</h3><ul>
+<li>Steps
+<ul>
+<li>Create a mapping class for every entity
+<ul>
+<li>Inherit from the EntityTypeConfiguration class</li>
+<li>Configure mapping in the constructor</li>
+</ul>
+</li>
+<li>Add all the mapping classes to the DbContext</li>
+</ul>
+</li>
+</ul>
+<p><strong>Entity</strong></p>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public</span> <span class="k">class</span> <span class="nc">Employee</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="kt">int</span> <span class="n">Id</span><span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+    <span class="k">public</span> <span class="kt">string</span> <span class="n">FirstName</span><span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+    <span class="k">public</span> <span class="kt">string</span> <span class="n">LastName</span><span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+    <span class="k">public</span> <span class="kt">string</span> <span class="n">Email</span><span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div><p><strong>Mapping Class</strong></p>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public</span> <span class="k">class</span> <span class="nc">EmployeeMap</span> <span class="p">:</span> <span class="n">EntityTypeConfiguration</span><span class="p">&lt;</span><span class="n">Employee</span><span class="p">&gt;</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="n">EmployeeMap</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">ToTable</span><span class="p">(</span><span class="s">&#34;Employees&#34;</span><span class="p">);</span>
+
+        <span class="n">HasKey</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span> <span class="n">x</span><span class="p">.</span><span class="n">Id</span><span class="p">);</span>
+
+        <span class="n">Property</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span> <span class="n">x</span><span class="p">.</span><span class="n">Id</span><span class="p">).</span><span class="n">HasColumnName</span><span class="p">(</span><span class="s">&#34;Id&#34;</span><span class="p">);</span>
+        <span class="n">Property</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span> <span class="n">x</span><span class="p">.</span><span class="n">FirstName</span><span class="p">).</span><span class="n">HasColumnName</span><span class="p">(</span><span class="s">&#34;FirstName&#34;</span><span class="p">);</span>
+        <span class="n">Property</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span> <span class="n">x</span><span class="p">.</span><span class="n">LastName</span><span class="p">).</span><span class="n">HasColumnName</span><span class="p">(</span><span class="s">&#34;LastName&#34;</span><span class="p">);</span>
+        <span class="n">Property</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span> <span class="n">x</span><span class="p">.</span><span class="n">Email</span><span class="p">).</span><span class="n">HasColumnName</span><span class="p">(</span><span class="s">&#34;Email&#34;</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div><p><strong>DbContext</strong></p>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public</span> <span class="k">class</span> <span class="nc">MyDbContext</span> <span class="p">:</span> <span class="n">DbContext</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="n">MyDbContext</span><span class="p">()</span> <span class="p">:</span> <span class="k">base</span><span class="p">(</span><span class="s">&#34;ConnectionStringKey&#34;</span><span class="p">)</span>
+    <span class="p">{</span>
+    <span class="p">}</span>
+
+    <span class="k">protected</span> <span class="k">override</span> <span class="k">void</span> <span class="n">OnModelCreating</span><span class="p">(</span><span class="n">DbModelBuilder</span> <span class="n">builder</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">builder</span>
+            <span class="p">.</span><span class="n">Configurations</span>
+            <span class="p">.</span><span class="n">AddFromAssembly</span><span class="p">(</span><span class="k">typeof</span> <span class="p">(</span><span class="n">MyDbContext</span><span class="p">).</span><span class="n">Assembly</span><span class="p">);</span>
+        
+        <span class="k">base</span><span class="p">.</span><span class="n">OnModelCreating</span><span class="p">(</span><span class="n">builder</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+    </div>
+</article>
+
+<aside>
+    <nav>
+        <ul>
+            
+            <li>
+                <a href="https://hemans.blog/posts/2015/2015-11-30-pomodoro/">&#8592; Pomodoro</a>
+            </li>
+            
+            
+            <li>
+                <a href="https://hemans.blog/posts/2015/2015-11-30-advent-of-mobile-web-apps/">Advent of Mobile Web Apps &#8594;</a>
+            </li>
+            
+        </ul>
+    </nav>
+</aside>
+
+
+        </main>
+
+        
+            <div class="profile">
+    <img src="/images/profile-picture.jpg"/>
+    <p>
+        Personal blog of <strong>Hemanshu Bhojak</strong> aka <strong>heman</strong>.
+        I write what I learn.
+    </p>
+</div>
+        
+    </div>
+
+</body>
+
+</html>

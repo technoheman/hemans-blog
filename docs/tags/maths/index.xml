@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>maths on heman&#39;s blog</title>
+    <link>https://hemans.blog/tags/maths/</link>
+    <description>Recent content in maths on heman&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Mar 2018 10:31:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hemans.blog/tags/maths/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Maths: Why is 0! = 1?</title>
+      <link>https://hemans.blog/posts/2018/2016-08-01-why-is-0-factorial-1/</link>
+      <pubDate>Fri, 09 Mar 2018 10:31:00 +0000</pubDate>
+      
+      <guid>https://hemans.blog/posts/2018/2016-08-01-why-is-0-factorial-1/</guid>
+      <description>Let&amp;rsquo;s find factorial of numbers from 0 to 4
+0! = 1 1! = 1 (1) 2! = 2 (1 * 2) 3! = 6 (1 * 2 * 3) 4! = 24 (1 * 2 * 3 * 4) Let&amp;rsquo;s go reverse
+4! = 24 (1 * 2 * 3 * 4) 3! = 24/4 = 6 2! = 6/3 = 2 1! = 2/2 = 1 0! = 1/1 = 1 &amp;lt;- This is why </description>
+    </item>
+    
+    <item>
+      <title>Maths: Why is a^0=1?</title>
+      <link>https://hemans.blog/posts/2018/2016-08-01-why-is-a-to-the-power-0-equals-1/</link>
+      <pubDate>Fri, 09 Mar 2018 10:31:00 +0000</pubDate>
+      
+      <guid>https://hemans.blog/posts/2018/2016-08-01-why-is-a-to-the-power-0-equals-1/</guid>
+      <description>Let&amp;rsquo;s find powers of 2
+2^-3 = 1/8 2^-2 = 2 * 1/8 = 1/4 2^-1 = 2 * 1/4 = 1/2 2^0 = 2 * 1/2 = 1 &amp;lt;- This is why 2^1 = 2 * 1 = 2 2^2 = 2 * 2 = 4 2^3 = 2 * 4 = 8 In the above example we multiply by 2 as we move down.
+Let&amp;rsquo;s do that in reverse</description>
+    </item>
+    
+  </channel>
+</rss>

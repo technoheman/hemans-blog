@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Apps on heman&#39;s blog</title>
+    <link>https://hemans.blog/categories/web-apps/</link>
+    <description>Recent content in Web Apps on heman&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Dec 2015 01:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hemans.blog/categories/web-apps/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Advent of Mobile Web Apps</title>
+      <link>https://hemans.blog/posts/2015/2015-11-30-advent-of-mobile-web-apps/</link>
+      <pubDate>Wed, 02 Dec 2015 01:00:00 +0000</pubDate>
+      
+      <guid>https://hemans.blog/posts/2015/2015-11-30-advent-of-mobile-web-apps/</guid>
+      <description>Pros and Cons of Native and Web Applications Native Apps  Pros  Has access to almost all device capabilities (GPS, Serial Communication, Camera, etc.) Easy to find apps from the app store Performance is good Supports push notifications Multi threaded   Cons  Needs an install Ensuring everyone is using the latest version is a pain Consumes more space on the disk as compared to a web app Is regulated by the provider (Google, Apple, etc.</description>
+    </item>
+    
+  </channel>
+</rss>

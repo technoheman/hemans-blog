@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>container on heman&#39;s blog</title>
+    <link>https://hemans.blog/tags/container/</link>
+    <description>Recent content in container on heman&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 May 2016 09:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hemans.blog/tags/container/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Simple Docker container running a http server</title>
+      <link>https://hemans.blog/posts/2016/2016-05-12-simple-docker-container-running-http-server/</link>
+      <pubDate>Thu, 12 May 2016 09:00:00 +0000</pubDate>
+      
+      <guid>https://hemans.blog/posts/2016/2016-05-12-simple-docker-container-running-http-server/</guid>
+      <description>In this exercise we will create a Docker container which will run a simple http server.
+Before starting, setup Docker on your local machine. You can easily setup Docker on your Windows machine using Chocolatey.
+Creating a DockerfileWe will create the Docker container using a Dockerfile. A Dockerfile contains a set of instructions to tell docker how to create and configure the container.
+Create a directory with the name docker-playground.</description>
+    </item>
+    
+    <item>
+      <title>Setting up Docker on Windows using Chocolatey</title>
+      <link>https://hemans.blog/posts/2016/2016-05-11-settingup-docker-windows-chocolatey/</link>
+      <pubDate>Wed, 11 May 2016 08:31:00 +0000</pubDate>
+      
+      <guid>https://hemans.blog/posts/2016/2016-05-11-settingup-docker-windows-chocolatey/</guid>
+      <description>Installing ChocolateyChocolatey is an awesome package manager for Windows (like apt-get) which makes installing software a breeze.
+Run the following command to download and install Chocolatey.
+C:\&amp;gt; @powershell -NoProfile -ExecutionPolicy Bypass -Command &amp;#34;iex ((new-object net.webclient).DownloadString(&amp;#39;https://chocolatey.org/install.ps1&amp;#39;))&amp;#34; &amp;amp;&amp;amp; SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin Verify that we have successfully installed Chocolatey.
+C:\&amp;gt; choco -v Installing Docker ComponentsWe will need the following components in order to create and host Docker containers on our local machine.
+ VirtualBox Docker Client Docker Machine Docker Compose  Virtual BoxDocker uses virtual machines to host and run containers.</description>
+    </item>
+    
+  </channel>
+</rss>

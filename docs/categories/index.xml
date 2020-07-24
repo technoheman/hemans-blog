@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on heman&#39;s blog</title>
+    <link>https://hemans.blog/categories/</link>
+    <description>Recent content in Categories on heman&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Jul 2020 17:35:45 +1000</lastBuildDate>
+    
+	<atom:link href="https://hemans.blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Electronics</title>
+      <link>https://hemans.blog/categories/electronics/</link>
+      <pubDate>Thu, 23 Jul 2020 17:35:45 +1000</pubDate>
+      
+      <guid>https://hemans.blog/categories/electronics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://hemans.blog/categories/git/</link>
+      <pubDate>Thu, 09 Jun 2016 06:12:00 +0000</pubDate>
+      
+      <guid>https://hemans.blog/categories/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>universal-desktop-apps electron</title>
+      <link>https://hemans.blog/categories/universal-desktop-apps-electron/</link>
+      <pubDate>Tue, 17 May 2016 03:44:00 +0000</pubDate>
+      
+      <guid>https://hemans.blog/categories/universal-desktop-apps-electron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker container static-website http-server</title>
+      <link>https://hemans.blog/categories/docker-container-static-website-http-server/</link>
+      <pubDate>Thu, 12 May 2016 09:00:00 +0000</pubDate>
+      
+      <guid>https://hemans.blog/categories/docker-container-static-website-http-server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker windows chocolatey container</title>
+      <link>https://hemans.blog/categories/docker-windows-chocolatey-container/</link>
+      <pubDate>Wed, 11 May 2016 08:31:00 +0000</pubDate>
+      
+      <guid>https://hemans.blog/categories/docker-windows-chocolatey-container/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chocolatey package-manager windows-package-manager</title>
+      <link>https://hemans.blog/categories/chocolatey-package-manager-windows-package-manager/</link>
+      <pubDate>Wed, 11 May 2016 01:00:00 +0000</pubDate>
+      
+      <guid>https://hemans.blog/categories/chocolatey-package-manager-windows-package-manager/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>design design-principles solid</title>
+      <link>https://hemans.blog/categories/design-design-principles-solid/</link>
+      <pubDate>Mon, 09 May 2016 13:00:00 +0000</pubDate>
+      
+      <guid>https://hemans.blog/categories/design-design-principles-solid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Apps</title>
+      <link>https://hemans.blog/categories/web-apps/</link>
+      <pubDate>Wed, 02 Dec 2015 01:00:00 +0000</pubDate>
+      
+      <guid>https://hemans.blog/categories/web-apps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>entity-framework entity-type-configuration mapping</title>
+      <link>https://hemans.blog/categories/entity-framework-entity-type-configuration-mapping/</link>
+      <pubDate>Tue, 01 Dec 2015 01:00:00 +0000</pubDate>
+      
+      <guid>https://hemans.blog/categories/entity-framework-entity-type-configuration-mapping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self Help</title>
+      <link>https://hemans.blog/categories/self-help/</link>
+      <pubDate>Mon, 30 Nov 2015 01:00:00 +0000</pubDate>
+      
+      <guid>https://hemans.blog/categories/self-help/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

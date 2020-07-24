@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>package-manager on heman&#39;s blog</title>
+    <link>https://hemans.blog/tags/package-manager/</link>
+    <description>Recent content in package-manager on heman&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 May 2016 01:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hemans.blog/tags/package-manager/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chocolatey: A package manager for Windows</title>
+      <link>https://hemans.blog/posts/2016/2016-05-11-chocolatey-a-package-manager-for-windows/</link>
+      <pubDate>Wed, 11 May 2016 01:00:00 +0000</pubDate>
+      
+      <guid>https://hemans.blog/posts/2016/2016-05-11-chocolatey-a-package-manager-for-windows/</guid>
+      <description>Chocolatey is an awesome package manager for Windows (based on NuGet) which I have been using since a couple of years now. Every developer and hacker should have it on their Windows machines.
+A package manager is a tool which makes it easy to install, configure and update a software from the command line.
+Chocolatey is like apt-get on Linux or homebrew on Mac.
+Installing and updating software is a breeze with Chocolatey using very simple commands.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://hemans.blog/posts/2020/art-of-making-electrons-work/</loc>
+    <lastmod>2020-07-23T17:35:45+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/categories/</loc>
+    <lastmod>2020-07-23T17:35:45+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/categories/electronics/</loc>
+    <lastmod>2020-07-23T17:35:45+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/</loc>
+    <lastmod>2020-07-23T17:35:45+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/2020/marodown-test/</loc>
+    <lastmod>2020-07-23T17:35:45+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/</loc>
+    <lastmod>2020-07-23T17:35:45+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/git/</loc>
+    <lastmod>2018-11-22T00:17:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/2018/2018-11-22-import-git-repo/</loc>
+    <lastmod>2018-11-22T00:17:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/import/</loc>
+    <lastmod>2018-11-22T00:17:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/</loc>
+    <lastmod>2018-11-22T00:17:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/2018/2018-10-04-git-purge-local-branches-missing-on-remote-powershell/</loc>
+    <lastmod>2018-10-04T04:13:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/powershell/</loc>
+    <lastmod>2018-10-04T04:13:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/asp.net-core/</loc>
+    <lastmod>2018-07-26T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/custom-domain/</loc>
+    <lastmod>2018-07-26T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/2018/2018-07-26-custom-domain-in-asp.net-core-kestrel/</loc>
+    <lastmod>2018-07-26T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/kestrel/</loc>
+    <lastmod>2018-07-26T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/2018/2018-05-18-git-clean-untracked-files-and-directories/</loc>
+    <lastmod>2018-05-18T11:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/2018/2018-05-18-git-undo-commit/</loc>
+    <lastmod>2018-05-18T11:47:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/2018/2018-05-07-git-purge-local-branches-missing-on-remote/</loc>
+    <lastmod>2018-05-07T12:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/factorial/</loc>
+    <lastmod>2018-03-09T10:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/intuition/</loc>
+    <lastmod>2018-03-09T10:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/maths/</loc>
+    <lastmod>2018-03-09T10:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/2018/2016-08-01-why-is-0-factorial-1/</loc>
+    <lastmod>2018-03-09T10:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/2018/2016-08-01-why-is-a-to-the-power-0-equals-1/</loc>
+    <lastmod>2018-03-09T10:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/power/</loc>
+    <lastmod>2018-03-09T10:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/2016/2016-08-01-git-revert-file-to-previous-version/</loc>
+    <lastmod>2016-08-01T22:53:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/2016/2016-07-20-git-create-a-remote-branch/</loc>
+    <lastmod>2016-07-20T11:06:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/angular2/</loc>
+    <lastmod>2016-07-04T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/2016/2016-07-04-angular2-cannot-read-property-visitstatement-of-undefined/</loc>
+    <lastmod>2016-07-04T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/categories/git/</loc>
+    <lastmod>2016-06-09T06:12:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/2016/2016-06-09-keeping-feature-branch-insync-with-develop/</loc>
+    <lastmod>2016-06-09T06:12:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/electron/</loc>
+    <lastmod>2016-05-17T03:44:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/2016/2016-05-17-universal-desktop-app-using-web-technologies/</loc>
+    <lastmod>2016-05-17T03:44:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/universal-desktop-apps/</loc>
+    <lastmod>2016-05-17T03:44:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/categories/universal-desktop-apps-electron/</loc>
+    <lastmod>2016-05-17T03:44:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/container/</loc>
+    <lastmod>2016-05-12T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/docker/</loc>
+    <lastmod>2016-05-12T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/categories/docker-container-static-website-http-server/</loc>
+    <lastmod>2016-05-12T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/http-server/</loc>
+    <lastmod>2016-05-12T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/2016/2016-05-12-simple-docker-container-running-http-server/</loc>
+    <lastmod>2016-05-12T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/static-website/</loc>
+    <lastmod>2016-05-12T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/chocolatey/</loc>
+    <lastmod>2016-05-11T08:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/categories/docker-windows-chocolatey-container/</loc>
+    <lastmod>2016-05-11T08:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/2016/2016-05-11-settingup-docker-windows-chocolatey/</loc>
+    <lastmod>2016-05-11T08:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/windows/</loc>
+    <lastmod>2016-05-11T08:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/categories/chocolatey-package-manager-windows-package-manager/</loc>
+    <lastmod>2016-05-11T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/2016/2016-05-11-chocolatey-a-package-manager-for-windows/</loc>
+    <lastmod>2016-05-11T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/package-manager/</loc>
+    <lastmod>2016-05-11T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/windows-package-manager/</loc>
+    <lastmod>2016-05-11T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/design/</loc>
+    <lastmod>2016-05-09T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/categories/design-design-principles-solid/</loc>
+    <lastmod>2016-05-09T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/design-principles/</loc>
+    <lastmod>2016-05-09T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/solid/</loc>
+    <lastmod>2016-05-09T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/2016/2016-05-09-solid-principles/</loc>
+    <lastmod>2016-05-09T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/2015/2015-11-30-advent-of-mobile-web-apps/</loc>
+    <lastmod>2015-12-02T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/categories/web-apps/</loc>
+    <lastmod>2015-12-02T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/entity-framework/</loc>
+    <lastmod>2015-12-01T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/categories/entity-framework-entity-type-configuration-mapping/</loc>
+    <lastmod>2015-12-01T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/entity-type-configuration/</loc>
+    <lastmod>2015-12-01T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/2015/2015-12-01-clean-entities-using-entity-type-configuration/</loc>
+    <lastmod>2015-12-01T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/tags/mapping/</loc>
+    <lastmod>2015-12-01T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/2015/2015-11-30-pomodoro/</loc>
+    <lastmod>2015-11-30T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/categories/self-help/</loc>
+    <lastmod>2015-11-30T01:00:00+00:00</lastmod>
+  </url>
+  
+</urlset>

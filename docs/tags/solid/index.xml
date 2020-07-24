@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>solid on heman&#39;s blog</title>
+    <link>https://hemans.blog/tags/solid/</link>
+    <description>Recent content in solid on heman&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 May 2016 13:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hemans.blog/tags/solid/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SOLID Principles</title>
+      <link>https://hemans.blog/posts/2016/2016-05-09-solid-principles/</link>
+      <pubDate>Mon, 09 May 2016 13:00:00 +0000</pubDate>
+      
+      <guid>https://hemans.blog/posts/2016/2016-05-09-solid-principles/</guid>
+      <description>(S) Single Responsibility Principle A class should have only one reason to change
+ (O) Open and Closed Principle Classes should be open for extension but closed for modification
+ (L) Liskov Substitution Principle Derived classes should be substitutable for their base classes
+ (I) Interface Segregation Principle Client&amp;rsquo;s should not be forced to implement an interface they don&amp;rsquo;t use
+ (D) Dependency Inversion Principle Program to an interface not an implementation</description>
+    </item>
+    
+  </channel>
+</rss>

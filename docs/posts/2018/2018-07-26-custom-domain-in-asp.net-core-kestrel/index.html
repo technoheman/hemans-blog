@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    
+
+    <title>heman's blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto+Mono:wght@300;400;600"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://hemans.blog/syntax.a832bd16b1d6afac69b94ca616a61d04b6ac9ffe41dd90333d406c1ebed2eddc.css" integrity="sha256-qDK9FrHWr6xpuUymFqYdBLasn/5B3ZAzPUBsHr7S7dw="
+        media="screen">
+    <link rel="stylesheet" href="https://hemans.blog/main.min.71aa65299931f19f62c8f84bcd6e1d1816d76d812742550ee1f608dc2cc30e42.css" integrity="sha256-caplKZkx8Z9iyPhLzW4dGBbXbYEnQlUO4fYI3CzDDkI=" media="screen">
+</head>
+
+<body>
+
+    <div class="container">
+        
+<header class="site-header">
+    <h2>
+        <a href="https://hemans.blog/">heman's blog</a>
+    </h2>
+</header>
+
+
+        <main>
+            
+<article>
+    <header>
+        <h1>
+            Custom Domain in Asp.Net Core Kestrel
+        </h1>
+        <small>
+            July 26, 2018 &middot; 2 minute read
+        </small>
+    </header>
+    <div>
+        <h2 id="update-hosts-file">Update <code>hosts</code> file</h2><p>This file is usually located at <code>%SYSTEMROOT%\System32\drivers\etc\hosts</code></p>
+<p><code>%SYSTEMROOT%</code> is usually <code>C:\Windows</code></p>
+<p>Add the following line at the end of that file</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">127.0.0.1   hemanshubhojak.com
+</code></pre></div><p>You need to have administrator rights to modify this file. Also run notepad or your text editor as administrator to save the file.</p>
+<p>Run the following command to flush the local DNS cache.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$&gt; ipconfig /flushdns
+Windows IP Configuration
+
+Successfully flushed the DNS Resolver Cache.
+</code></pre></div><h2 id="test-hosts-file-changes">Test <code>hosts</code> file changes</h2><p>Run the following command to test the above changes. The ping command should resolve the IP address to <code>127.0.0.1</code>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$&gt; ping hemanshubhojak.com
+
+Pinging hemanshubhojak.com [127.0.0.1] with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time&lt;1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time&lt;1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time&lt;1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time&lt;1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+</code></pre></div><h2 id="update-iwebhostbuilder">Update IWebHostBuilder</h2><div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">return WebHost.CreateDefaultBuilder(args)
+    .UseUrls(&#34;http://hemanshubhojak.com:8866&#34;)
+    .UseNLog()
+    .UseStartup&lt;Startup&gt;()
+    .Build();
+</code></pre></div><h2 id="update-launch-settings">Update Launch Settings</h2><p>The launchSettings.json file is usually located at</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">&lt;Project Folder&gt;\Properties\launchSettings.json
+</code></pre></div><p>Modify the <code>applicationUrl</code> property for your active config (iisSettings, etc.)</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">applicationUrl&#34;: &#34;http://hemanshubhojak.com:8866&#34;,
+</code></pre></div><p>You can also <code>right click-&gt;properties</code> on your project and modify the <code>Debug-&gt;App URL</code> instead of modifying the above file manually.</p>
+<h2 id="run">Run</h2><p>Run the project now and it should work on your custom domain locally. Browser usually cache the DNS for sometime, in which case it may not work right away. Give it about 5 mins and try again and it should work. If not try searching online, ways to flush cache of the browser you use.</p>
+
+    </div>
+</article>
+
+<aside>
+    <nav>
+        <ul>
+            
+            <li>
+                <a href="https://hemans.blog/posts/2018/2018-05-18-git-clean-untracked-files-and-directories/">&#8592; Git: Clean untracked files and directories</a>
+            </li>
+            
+            
+            <li>
+                <a href="https://hemans.blog/posts/2018/2018-10-04-git-purge-local-branches-missing-on-remote-powershell/">Git: Purge local branches missing on remote (Powershell) &#8594;</a>
+            </li>
+            
+        </ul>
+    </nav>
+</aside>
+
+
+        </main>
+
+        
+            <div class="profile">
+    <img src="/images/profile-picture.jpg"/>
+    <p>
+        Personal blog of <strong>Hemanshu Bhojak</strong> aka <strong>heman</strong>.
+        I write what I learn.
+    </p>
+</div>
+        
+    </div>
+
+</body>
+
+</html>
