@@ -1,0 +1,41 @@
+{{ define "header" }}
+<header class="site-header">
+    <h2>
+        <a href="{{.Site.BaseURL}}">heman's blog</a>
+    </h2>
+</header>
+{{end}}
+
+{{ define "main" }}
+<article>
+    <header>
+        <h1>
+            {{ .Title }}
+        </h1>
+        <small>
+            {{.PublishDate.Format "January 2, 2006"}} &middot; {{.ReadingTime}} mins read
+        </small>
+    </header>
+    <div>
+        {{.Content}}
+    </div>
+</article>
+
+<aside>
+    <nav>
+        <ul>
+            {{ if .Prev }}
+            <li>
+                <a href="{{ .Prev.Permalink }}">&#8592; {{ .Prev.Title }}</a>
+            </li>
+            {{ end }}
+            {{ if .Next }}
+            <li>
+                <a href="{{ .Next.Permalink }}">{{ .Next.Title }} &#8594;</a>
+            </li>
+            {{ end }}
+        </ul>
+    </nav>
+</aside>
+
+{{end}}

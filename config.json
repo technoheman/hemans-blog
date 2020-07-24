@@ -1,0 +1,20 @@
+{
+	"baseUrl": "https://hemans.blog/",
+	"languageCode": "en-us",
+	"title": "Hemanshu Bhojak",
+	"pygmentsUseClasses": true,
+	"enableEmoji": true,
+	"markup": {
+		"highlight": {
+			"codeFences": true,
+			"guessSyntax": true,
+			"hl_Lines": "",
+			"lineNoStart": 1,
+			"lineNos": false,
+			"lineNumbersInTable": true,
+			"noClasses": false,
+			"style": "monokai",
+			"tabWidth": 4
+		}
+	}
+}
