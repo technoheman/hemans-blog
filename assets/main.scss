@@ -122,6 +122,12 @@ img {
     padding: 2.5rem 1.5rem;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+    .container {
+        padding: 1rem;
+    }
+}
+
 //syntax highlighting
 code {
     padding: 0.3em;
@@ -159,7 +165,26 @@ article {
             a {
                 box-shadow: none;
             }
-            small {
+        }
+
+        small {
+            ul {
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                padding: 0;
+                margin: 0.5rem 0;
+
+                li:not(:last-child) {
+                    display: flex;
+
+                    &:after {
+                        content: "\00B7";
+                        font-size: 1.6em;
+                        display: flex;
+                        margin: 0 0.5rem;
+                    }
+                }
             }
         }
     }
@@ -240,12 +265,11 @@ nav.bottom-menu {
             h2 {
                 padding: 0;
                 margin: 0;
-    
+
                 a {
                     box-shadow: none;
                 }
             }
-    
         }
     }
 }

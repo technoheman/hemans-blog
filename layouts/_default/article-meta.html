@@ -1,0 +1,13 @@
+<small>
+    <ul>
+        <li>{{.PublishDate.Format "January 2, 2006"}}</li>
+        <li>{{.ReadingTime}} minute read</li>
+        <li>
+            {{ range .Params.categories }}
+                <a href="/{{ "categories" | urlize }}/{{ . | urlize }}">
+                    {{ . | humanize | title }}
+                </a>
+            {{ end }}
+        </li>
+    </ul>
+</small>
