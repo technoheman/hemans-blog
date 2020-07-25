@@ -35,16 +35,5 @@ test.. test&amp;hellip; test&amp;hellip;.. test?&amp;hellip;.. test!&amp;hellip;
 &amp;ldquo;Smartypants, double quotes&amp;rdquo; and &amp;lsquo;single quotes&amp;rsquo;</description>
     </item>
     
-    <item>
-      <title>Maths: Why is 0! = 1?</title>
-      <link>https://hemans.blog/posts/2018/2016-08-01-why-is-0-factorial-1/</link>
-      <pubDate>Fri, 09 Mar 2018 10:31:00 +0000</pubDate>
-      
-      <guid>https://hemans.blog/posts/2018/2016-08-01-why-is-0-factorial-1/</guid>
-      <description>Let&amp;rsquo;s find factorial of numbers from 0 to 4
-0! = 1 1! = 1 (1) 2! = 2 (1 * 2) 3! = 6 (1 * 2 * 3) 4! = 24 (1 * 2 * 3 * 4) Let&amp;rsquo;s go reverse
-4! = 24 (1 * 2 * 3 * 4) 3! = 24/4 = 6 2! = 6/3 = 2 1! = 2/2 = 1 0! = 1/1 = 1 &amp;lt;- This is why </description>
-    </item>
-    
   </channel>
 </rss>
