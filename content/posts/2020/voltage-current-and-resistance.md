@@ -2,7 +2,7 @@
 title: "Voltage, Current and Resistance"
 date: 2020-07-30T18:49:26+10:00
 draft: false
-categories: ["Eelctronics"]
+categories: ["Electronics"]
 ---
 
 To understand voltage, current and resistance let us consider a very simple circuit containing a copper wire connected across the two terminals of a battery.
