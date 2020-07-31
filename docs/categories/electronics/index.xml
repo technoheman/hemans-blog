@@ -6,10 +6,20 @@
     <description>Recent content in Electronics on heman&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2020 17:35:45 +1000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2020 18:49:26 +1000</lastBuildDate>
     
 	<atom:link href="https://hemans.blog/categories/electronics/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Voltage, Current and Resistance</title>
+      <link>https://hemans.blog/posts/2020/voltage-current-and-resistance/</link>
+      <pubDate>Thu, 30 Jul 2020 18:49:26 +1000</pubDate>
+      
+      <guid>https://hemans.blog/posts/2020/voltage-current-and-resistance/</guid>
+      <description>To understand voltage, current and resistance let us consider a very simple circuit containing a copper wire connected across the two terminals of a battery.
+The batteryIt is beyond the scope of this article to describe the working of a battery but it would to sufficient to describe it as a device which contains two terminals coming out of an enclosure. Chemicals are filled inside this enclosure and are constantly reacting.</description>
+    </item>
     
     <item>
       <title>Art of Making Electrons Work</title>
