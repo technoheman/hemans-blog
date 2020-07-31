@@ -3,32 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hemans.blog/categories/</loc>
+    <lastmod>2020-07-30T18:49:26+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/categories/eelctronics/</loc>
+    <lastmod>2020-07-30T18:49:26+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/</loc>
+    <lastmod>2020-07-30T18:49:26+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/</loc>
+    <lastmod>2020-07-30T18:49:26+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hemans.blog/posts/2020/voltage-current-and-resistance/</loc>
+    <lastmod>2020-07-30T18:49:26+10:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hemans.blog/posts/2020/art-of-making-electrons-work/</loc>
     <lastmod>2020-07-23T17:35:45+10:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hemans.blog/categories/</loc>
-    <lastmod>2020-07-23T17:35:45+10:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hemans.blog/categories/electronics/</loc>
-    <lastmod>2020-07-23T17:35:45+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hemans.blog/</loc>
-    <lastmod>2020-07-23T17:35:45+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hemans.blog/posts/2020/marodown-test/</loc>
-    <lastmod>2020-07-23T17:35:45+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hemans.blog/posts/</loc>
     <lastmod>2020-07-23T17:35:45+10:00</lastmod>
   </url>
   

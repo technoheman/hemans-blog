@@ -6,10 +6,19 @@
     <description>Recent content in Categories on heman&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2020 17:35:45 +1000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2020 18:49:26 +1000</lastBuildDate>
     
 	<atom:link href="https://hemans.blog/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Eelctronics</title>
+      <link>https://hemans.blog/categories/eelctronics/</link>
+      <pubDate>Thu, 30 Jul 2020 18:49:26 +1000</pubDate>
+      
+      <guid>https://hemans.blog/categories/eelctronics/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Electronics</title>

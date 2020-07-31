@@ -6,10 +6,20 @@
     <description>Recent content on heman&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2020 17:35:45 +1000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2020 18:49:26 +1000</lastBuildDate>
     
 	<atom:link href="https://hemans.blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Voltage, Current and Resistance</title>
+      <link>https://hemans.blog/posts/2020/voltage-current-and-resistance/</link>
+      <pubDate>Thu, 30 Jul 2020 18:49:26 +1000</pubDate>
+      
+      <guid>https://hemans.blog/posts/2020/voltage-current-and-resistance/</guid>
+      <description>To understand voltage, current and resistance let us consider a very simple circuit containing a copper wire connected across the two terminals of a battery.
+The batteryIt is beyond the scope of this article to describe the working of a battery but it would to sufficient to describe it as a device which contains two terminals coming out of an enclosure. Chemicals are filled inside this enclosure and are constantly reacting.</description>
+    </item>
     
     <item>
       <title>Art of Making Electrons Work</title>
@@ -18,21 +28,6 @@
       
       <guid>https://hemans.blog/posts/2020/art-of-making-electrons-work/</guid>
       <description>The AtomAll matter in the universe is made up of tiny particles. Some particles are positive and some are negative. These particles are constantly jiggling around. When like particles come closer they repel each other with a great force, called the electric force. But the opposite particles attract each other. However an evenly mixed bunch of these particles will pull each other with great attraction and balance each other out.</description>
-    </item>
-    
-    <item>
-      <title>Markdown test</title>
-      <link>https://hemans.blog/posts/2020/marodown-test/</link>
-      <pubDate>Thu, 23 Jul 2020 17:35:45 +1000</pubDate>
-      
-      <guid>https://hemans.blog/posts/2020/marodown-test/</guid>
-      <description>Advertisement :)
- pica - high quality and fast image resize in browser. babelfish - developer friendly i18n with plurals support and easy syntax.  You will like those projects!
- h1 Heading 8-)h2 Headingh3 Headingh4 Headingh5 Headingh6 HeadingHorizontal Rules   Typographic replacementsEnable typographer option to see result.
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
-test.. test&amp;hellip; test&amp;hellip;.. test?&amp;hellip;.. test!&amp;hellip;.
-!!!!!! ???? ,, &amp;ndash; &amp;mdash;
-&amp;ldquo;Smartypants, double quotes&amp;rdquo; and &amp;lsquo;single quotes&amp;rsquo;</description>
     </item>
     
     <item>

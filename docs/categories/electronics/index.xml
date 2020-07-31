@@ -20,20 +20,5 @@
       <description>The AtomAll matter in the universe is made up of tiny particles. Some particles are positive and some are negative. These particles are constantly jiggling around. When like particles come closer they repel each other with a great force, called the electric force. But the opposite particles attract each other. However an evenly mixed bunch of these particles will pull each other with great attraction and balance each other out.</description>
     </item>
     
-    <item>
-      <title>Markdown test</title>
-      <link>https://hemans.blog/posts/2020/marodown-test/</link>
-      <pubDate>Thu, 23 Jul 2020 17:35:45 +1000</pubDate>
-      
-      <guid>https://hemans.blog/posts/2020/marodown-test/</guid>
-      <description>Advertisement :)
- pica - high quality and fast image resize in browser. babelfish - developer friendly i18n with plurals support and easy syntax.  You will like those projects!
- h1 Heading 8-)h2 Headingh3 Headingh4 Headingh5 Headingh6 HeadingHorizontal Rules   Typographic replacementsEnable typographer option to see result.
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
-test.. test&amp;hellip; test&amp;hellip;.. test?&amp;hellip;.. test!&amp;hellip;.
-!!!!!! ???? ,, &amp;ndash; &amp;mdash;
-&amp;ldquo;Smartypants, double quotes&amp;rdquo; and &amp;lsquo;single quotes&amp;rsquo;</description>
-    </item>
-    
   </channel>
 </rss>
